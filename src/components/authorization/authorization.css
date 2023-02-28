@@ -1,0 +1,28 @@
+.authorization-block {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 18%;
+    right: 18%;
+    background-color: rgb(5, 5, 153);
+    width: 50%;
+    height: 50%;
+}
+
+.form-authorization {
+    width: 200px;
+    background-color: rgb(2, 196, 196);
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: white;
+}

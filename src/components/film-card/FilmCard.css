@@ -1,0 +1,58 @@
+.film-card {
+    width: 450px;
+    height: 300px;
+    box-shadow: 0 2px 30px rgb(4 0 0 / 20%);
+    background-color: whitesmoke;
+}
+
+.film-card_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.film-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.film-info {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(149, 149, 149);
+}
+.film-details {
+    border-top: 0.2px solid gray;
+    cursor: pointer;
+}
+.films-favorite {
+    display: flex;
+    align-items: center;
+}
+
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.film-more-link {
+    color: black;
+    background-repeat: no-repeat;
+}
+
+svg {
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+}
+
+.img-card {
+    height: 100%;
+}

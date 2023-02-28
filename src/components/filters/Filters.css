@@ -1,0 +1,21 @@
+.filter-block {
+    background-color: rgb(2, 196, 196);
+    width: 20%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.filter-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}

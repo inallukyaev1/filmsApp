@@ -1,0 +1,25 @@
+a {
+    font-weight: 500;
+    color: white;
+    text-decoration: inherit;
+    transition: 0.5s all;
+}
+
+.header {
+    background-color: rgb(5, 5, 153);
+    padding-top: 30px;
+    height: 60px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.auth-btn,
+.home-btn {
+    width: 100%;
+}

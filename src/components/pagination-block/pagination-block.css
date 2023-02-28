@@ -1,0 +1,32 @@
+.prev-btn,
+.next-btn {
+    background: #eee;
+    color: #088;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    padding: 10px 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+    box-shadow: 0px -5px 0 rgb(43, 153, 91) inset;
+}
+
+.nav-btns {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.disabled {
+    color: rgb(204, 204, 204);
+}
+
+.disabled:hover {
+    box-shadow: none;
+}
+.pagination-info {
+    margin-top: 10px;
+    font-size: 18px;
+}

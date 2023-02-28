@@ -1,0 +1,24 @@
+.film-rate {
+    margin-bottom: 1px;
+}
+
+.films-favorite {
+    display: flex;
+    align-items: center;
+}
+
+.watch-later,
+.add-to-favorites {
+    cursor: pointer;
+}
+
+.img-card {
+    height: 300px;
+}
+
+.watch-later {
+    fill: green;
+}
+.star {
+    cursor: pointer;
+}

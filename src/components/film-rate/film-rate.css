@@ -1,0 +1,17 @@
+fieldset {
+    border: none;
+    margin: 0;
+    margin-left: 36px;
+}
+
+.checkbox-block {
+    margin-bottom: 5px;
+}
+
+label,
+input {
+    cursor: pointer;
+}
+.prev-btn {
+    margin-right: 10px;
+}
